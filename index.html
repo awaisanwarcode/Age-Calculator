@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Age Calculater</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
     </header>
     <main>
         <section>
-            
+            <div id="app_name">
+                <h2>Age Calculator</h2>
+                <h3>Requires your Date Of Birth</h3>
+            </div>
+            <div id="app_cont">
+                <div id="container" >
+                    <p>Enter your Date Of Birth:</p>
+                    <span id="input_span">
+                        <select id="date" class="input-data">
+                        </select>
+                        -
+                        <select id="month" class="input-data"></select>
+                        -
+                        <input type="number" id="year" placeholder="2006">
+                    </span>
+                    <button>Enter</button>
+                    <h3 class="hidden">You Entered 25-Oct-2006</h3>
+                </div>
+                <span id="res_con"  class="hidden">
+                    Your Age is X months & Y years
+                </span>
+            </div>
         </section>
     </main>
+    <script src="list.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

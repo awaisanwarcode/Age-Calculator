@@ -1,0 +1,108 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+}
+
+#app_name {
+    height: 100%;
+    width: 25%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(127, 255, 212, 0.242);
+}
+
+#app_name h2 {
+    font-size: 3.2rem;
+    color: rgb(0, 0, 0);
+}
+
+#app_name h3 {
+    font-size: 1.6rem;
+}
+
+#app_cont {
+    height: 100%;
+    width: 75%;
+    padding: 2% 1% 0% 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(127, 236, 255, 0.459);
+}
+
+#container {
+    border: 2px solid rgba(0, 0, 0, 0.58);
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+#container #input_span {
+    padding: 1% 1% 1% 0%;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.input-data {
+    height: 33px;
+    width: 65px;
+    padding: 5px;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 0.3%;
+    border-radius: 5px;
+}
+
+input {
+    outline: none;
+    border-radius: 5px;
+    width: 140px;
+    height: 33px;
+    font-size: 1.6rem;
+    padding: 1%;
+}
+
+button {
+    width: 130px;
+    font-size: 1.6rem;
+    margin: 1.2% 0%;
+    cursor: pointer;
+    background-color: rgba(43, 239, 4, 0.363);
+    border-radius: 5px;
+}
+
+button:active {
+    background-color: white;
+}
+
+#container h3 {
+    font-size: 1.6rem;
+    display: none;
+}
+
+#res_con {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 4% 1%;
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+}
