@@ -100,9 +100,16 @@ button:active {
 #res_con {
     border: 2px solid black;
     border-radius: 10px;
-    text-align: center;
     padding: 4% 1%;
     display: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
+}
+
+li{
+    font-size: 1.6rem;
+}
+
+#currAge{
+    color: rgb(196, 72, 0);
+    font-weight: 900;
 }

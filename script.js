@@ -47,8 +47,10 @@ let diff_year = "";
 function age_calcu() {
     let year = today_date.getFullYear();
     diff_year = year - Number(selected_year.value);
-    hid_ele[1].innerText = `
-    Your Age is ${diff_year} years from ${selected_date}-${Number(selected_month) + 1}-${year} & on upcoming ${selected_date}-${Number(selected_month) + 1}-${year + 1} you would be of ${diff_year + 1};
+    hid_ele[1].innerHTML = `
+    <li>Your ${diff_year - 1}th year was started from ${selected_date}-${Number(selected_month) + 1}-${year - 1} till ${selected_date}-${Number(selected_month) + 1}-${year}.</li>
+    <li id="currAge">Your Age is ${diff_year} years from ${selected_date}-${Number(selected_month) + 1}-${year} till ${selected_date}-${Number(selected_month) + 1}-${year + 1}.</li>
+    <li>You would be of ${diff_year + 1} from ${selected_date}-${Number(selected_month) + 1}-${year + 1}.</li>
     `;
 };
 //////
