@@ -6,7 +6,7 @@
 }
 
 section {
-    height: 100vh;
+    height: 95vh;
     display: flex;
 }
 
@@ -51,7 +51,6 @@ section {
 
 #container #input_span {
     padding: 1% 1% 1% 0%;
-    width: 50%;
     border-radius: 10px;
     font-size: 2rem;
 }
@@ -103,6 +102,10 @@ button:active {
     padding: 4% 1%;
     display: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fDiv{
+    text-align: center;
 }
 
 li{

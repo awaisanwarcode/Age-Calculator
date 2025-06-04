@@ -1,0 +1,136 @@
+@media (min-width:500px) and (max-width:800px) {
+    #container {
+        border-radius: 4px;
+    }
+
+    #app_cont {
+        width: 70%;
+        padding: 0% 0.7% 0% 2%;
+    }
+
+    #app_name {
+        width: 30%;
+        padding: 1%;
+    }
+
+    #app_name h2 {
+        font-size: 1.7rem;
+    }
+
+    #app_name h3 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    .input-data {
+        height: 25px;
+        width: 60px;
+        border-radius: 2px;
+    }
+
+    input {
+        border-radius: 3px;
+        width: 93px;
+        height: 25px;
+        font-size: 1.3rem;
+    }
+
+    button {
+        width: 90px;
+        font-size: 1.3rem;
+    }
+
+    #container h3 {
+        font-size: 1.1rem;
+    }
+
+    #res_con {
+        border: none;
+    }
+
+    li {
+        list-style-type: disclosure-closed;
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width:280px) and (max-width:500px) {
+    section {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #app_name,
+    #app_cont {
+        height: auto;
+        width: auto;
+        background: none;
+    }
+
+    #app_name {
+        position: fixed;
+        top: 40px;
+        width: 100%;
+    }
+
+    #app_name h2 {
+        font-size: 2.2rem;
+    }
+
+    #app_name h3 {
+        font-size: 1.2rem;
+        text-align: center;
+        color: #cba000;
+    }
+
+    #app_cont{
+        margin-top: 50px;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        justify-content: space-around;
+    }
+
+    p {
+        font-size: 1.47rem;
+        font-weight: 600;
+    }
+
+    .input-data {
+        height: 25px;
+        width: 62px;
+    }
+
+    input {
+        width: 79px;
+        height: 26px;
+        font-size: 1.3rem;
+    }
+
+    button {
+        width: 70px;
+        font-size: 1.3rem;
+        background-color: #cba0004a;
+    }
+
+    #container h3 {
+        font-size: 1.2rem;
+    }
+
+    #res_con {
+        margin-top: 50px;
+        border: none;
+    }
+
+    li {
+        font-size: 1.2rem;
+        line-height: 1.27;
+        list-style-type: disclosure-closed;
+    }
+}
